@@ -1,0 +1,21 @@
+{
+  "name": "pharma_trace_supply_chain_information_network_api",
+  "version": "0.0.1",
+  "description": "The_PharmaTrace_SCIN_API_provides_network_members_a_resource_and_process_oriented_access_to_the_blockchain_backed_market_and_inventory_information__It_represents_a_layer_of_abstraction_above_the_Hyperledger_network_to_facilitate_a_business_focused_development_of_clients_and_integration_systems_without_the_need_to_directly_connect_to_Hyperledger_nodes_",
+  "license": "MIT",
+  "main": "src/io.pharmatrace.api.scin.public/index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha --recursive"
+  },
+  "browser": {
+    "fs": false
+  },
+  "dependencies": {
+    "superagent": "3.7.0"
+  },
+  "devDependencies": {
+    "mocha": "~2.3.4",
+    "sinon": "1.17.3",
+    "expect.js": "~0.3.1"
+  }
+}
