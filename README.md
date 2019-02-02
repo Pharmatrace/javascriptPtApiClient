@@ -95,6 +95,7 @@ Please follow the [installation](#installation) instruction and execute the foll
 ```javascript
 var PharmaTraceSupplyChainInformationNetworkApi = require('pharma_trace_supply_chain_information_network_api');
 
+
 var api = new PharmaTraceSupplyChainInformationNetworkApi.ActivitysApi()
 var activity = new PharmaTraceSupplyChainInformationNetworkApi.Activity(); // {Activity} Activity to create
 
